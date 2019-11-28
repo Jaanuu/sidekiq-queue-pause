@@ -1,8 +1,8 @@
-begin
-  require 'celluloid'
-rescue LoadError
+#begin
+#  require 'celluloid'
+#rescue LoadError
   # Sidekiq 4.2+
-end
+#end
 require 'sidekiq'
 require 'sidekiq/fetch'
 
